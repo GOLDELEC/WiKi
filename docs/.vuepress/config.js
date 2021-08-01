@@ -88,6 +88,24 @@ module.exports = {
                                 sidebarDepth: 1,    // optional, defaults to 1
                             },
                         ],
+
+                    '/zh/docs/airwii_flight_controller/':
+                        [
+                            {
+                                title: 'AirWii飞控板',   // required
+                                path: '/zh/docs/airwii_flight_controller/',      // optional, link of the title, which should be an absolute path and must exist
+                                collapsable: true, // optional, defaults to true
+                                sidebarDepth: 1,    // optional, defaults to 1
+                                children: [
+                                    '/zh/docs/airwii_flight_controller/introduction',
+                                    '/zh/docs/airwii_flight_controller/assemble',
+                                    '/zh/docs/airwii_flight_controller/upgrade',
+                                    '/zh/docs/airwii_flight_controller/app',
+                                    '/zh/docs/airwii_flight_controller/example',
+                                    '/zh/docs/airwii_flight_controller/faq',
+                                ]
+                            },
+                        ],
                 },
             }
         }
