@@ -42,7 +42,7 @@ module.exports = {
                             {
                                 text: '四轴飞控',
                                 items:[
-                                    { text: 'AirWii飞控板', link: '/zh/docs/airwii_flight_controller/'},
+                                    { text: 'AirWii飞控板', link: '/zh/docs/airwii_flight_controller/introduction'},
                                     { text: 'AirWii32飞控板', link: '/zh/docs/airwii32_flight_controller/'}
                                 ]
                             },
@@ -93,7 +93,7 @@ module.exports = {
                         [
                             {
                                 title: 'AirWii飞控板',   // required
-                                path: '/zh/docs/airwii_flight_controller/',      // optional, link of the title, which should be an absolute path and must exist
+                                path: '/zh/docs/airwii_flight_controller/introduction',      // optional, link of the title, which should be an absolute path and must exist
                                 collapsable: true, // optional, defaults to true
                                 sidebarDepth: 1,    // optional, defaults to 1
                                 children: [
