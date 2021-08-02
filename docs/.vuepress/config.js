@@ -102,6 +102,7 @@ module.exports = {
                                     '/zh/docs/airwii_flight_controller/upgrade',
                                     '/zh/docs/airwii_flight_controller/config',
                                     '/zh/docs/airwii_flight_controller/app',
+                                    '/zh/docs/airwii_flight_controller/protocol',
                                     '/zh/docs/airwii_flight_controller/example',
                                     '/zh/docs/airwii_flight_controller/faq',
                                 ]
