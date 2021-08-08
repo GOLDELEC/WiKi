@@ -50,9 +50,9 @@ module.exports = {
                             {
                                 text: '四轴机架',
                                 items:[
-                                    { text: '四轴机架Air Wing 90', link: 'https://www.emqx.com/en/blog'},
-                                    { text: '四轴机架Air Wing 116', link: 'https://www.emqx.com/en/consulting'},
-                                    { text: '四轴机架Air Wing 130', link: 'https://www.emqx.com/en/training'}
+                                    { text: '四轴机架Air Wing 90', link: '/zh/docs/air_wing/air_wing_90/'},
+                                    { text: '四轴机架Air Wing 116', link: '/zh/docs/air_wing/air_wing_116/'},
+                                    { text: '四轴机架Air Wing 130', link: '/zh/docs/air_wing/air_wing_130/'}
                                 ]
                             }
                         ]
@@ -124,6 +124,21 @@ module.exports = {
                                     '/zh/docs/airwii32_flight_controller/app',
                                     '/zh/docs/airwii32_flight_controller/protocol',
                                     '/zh/docs/airwii32_flight_controller/faq',
+                                ]
+                            },
+                        ],
+
+                    '/zh/docs/air_wing/':
+                        [
+                            {
+                                title: 'Air Wing 四轴机架',   // required
+                                path: '/zh/docs/air_wing/air_wing_90/',      // optional, link of the title, which should be an absolute path and must exist
+                                collapsable: true, // optional, defaults to true
+                                sidebarDepth: 1,    // optional, defaults to 1
+                                children: [
+                                    '/zh/docs/air_wing/air_wing_90/',
+                                    '/zh/docs/air_wing/air_wing_116/',
+                                    '/zh/docs/air_wing/air_wing_130/',
                                 ]
                             },
                         ],
