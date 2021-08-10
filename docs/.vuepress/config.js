@@ -17,15 +17,15 @@ module.exports = {
         locales: {
             '/': {
                 sidebarDepth: 1,    //生成的侧边栏的索引包含h1和h2
-                label: 'Language',
-                selectText: '中文',
+                selectText: '选择语言',
+                label: 'English',
                 ariaLabel: 'Select language',
                 editLinkText: 'Edit this page on GitHub',
             },
             '/zh/': {
                 sidebarDepth: 1,
-                label: '选择语言',
-                selectText: 'English',
+                selectText: 'Language',
+                label: '中文',
                 ariaLabel: '选择语言',
                 editLinkText: '在GitHub上编辑此页面',
                 nav: [
@@ -67,8 +67,7 @@ module.exports = {
                     {
                         text: '智能车',
                         items:[
-                            { text: 'AirRover智能车', link: 'https://www.emqx.com/en/mqtt'},
-                            { text: 'AirRover智能车底盘', link: 'https://www.emqx.com/en/mqtt/mqtt5'},
+                            { text: 'AirRover智能车', link: '/zh/docs/air_rover/'},
                         ]
                     },
 
@@ -155,6 +154,16 @@ module.exports = {
                                     '/zh/docs/air_wing/air_wing_116/',
                                     '/zh/docs/air_wing/air_wing_130/',
                                 ]
+                            },
+                        ],
+
+                    '/zh/docs/air_rover/':
+                        [
+                            {
+                                title: 'AirRover智能车',   // required
+                                path: '/zh/docs/air_rover/',      // optional, link of the title, which should be an absolute path and must exist
+                                collapsable: true, // optional, defaults to true
+                                sidebarDepth: 1,    // optional, defaults to 1
                             },
                         ],
                 },
