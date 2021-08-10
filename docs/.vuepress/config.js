@@ -2,12 +2,12 @@ module.exports = {
     locales: {
         '/': {
             lang: 'en-US',
-            title: 'WiKi',
+            title: 'GOLDELEC WiKi',
             description: 'GOLDELEC WiKi'
         },
         '/zh/': {
             lang: 'zh-CN',
-            title: 'WiKi',
+            title: 'GOLDELEC WiKi',
             description: 'GOLDELEC WiKi'
         }
     },
@@ -17,15 +17,15 @@ module.exports = {
         locales: {
             '/': {
                 sidebarDepth: 1,    //生成的侧边栏的索引包含h1和h2
-                label: 'English',
-                selectText: 'Languages',
+                label: 'Language',
+                selectText: '中文',
                 ariaLabel: 'Select language',
                 editLinkText: 'Edit this page on GitHub',
             },
             '/zh/': {
                 sidebarDepth: 1,
-                label: '简体中文',
-                selectText: '选择语言',
+                label: '选择语言',
+                selectText: 'English',
                 ariaLabel: '选择语言',
                 editLinkText: '在GitHub上编辑此页面',
                 nav: [

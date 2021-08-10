@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 
-tagline: 意创电子文档
+tagline: 意创电子WiKi - 资料和文档
 footer: Copyright © 2021 GOLDELEC
 ---
 
