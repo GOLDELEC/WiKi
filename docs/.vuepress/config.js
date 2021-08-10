@@ -30,6 +30,11 @@ module.exports = {
                 editLinkText: '在GitHub上编辑此页面',
                 nav: [
                     {
+                        text: '首页',
+                        link: '/zh/',
+                    },
+
+                    {
                         text: '微型飞行器',
                         items:[
                             {
@@ -82,8 +87,18 @@ module.exports = {
                     '/zh/docs/airwii_copter/':
                         [
                             {
-                                title: 'AirWii飞行器说明书',   // required
+                                title: 'AirWii飞行器',   // required
                                 path: '/zh/docs/airwii_copter/',      // optional, link of the title, which should be an absolute path and must exist
+                                collapsable: true, // optional, defaults to true
+                                sidebarDepth: 1,    // optional, defaults to 1
+                            },
+                        ],
+
+                    '/zh/docs/airwii32_copter/':
+                        [
+                            {
+                                title: 'AirWii32飞行器',   // required
+                                path: '/zh/docs/airwii32_copter/',      // optional, link of the title, which should be an absolute path and must exist
                                 collapsable: true, // optional, defaults to true
                                 sidebarDepth: 1,    // optional, defaults to 1
                             },

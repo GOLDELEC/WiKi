@@ -1,8 +1,8 @@
-# AirWii飞行器说明书
+# AirWii飞行器
 
 <img src="~@zh_assets/airwii_copter/airwii_copter_01.jpg" style="width:600px">
 
-## AirWii飞行器
+## 简介
 AirWii飞行器的核心是AIR飞行板，AIR飞控板的主控为Atmega32u4，配备六轴传感器MPU6050，板载5V和3.3V电源系统，和马达驱动系统。
 
 运行MWC开源飞控，可直接通过飞控板自带的USB接口编程。飞控板独立于机架，方便DIY。
